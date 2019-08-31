@@ -10,7 +10,6 @@ void setup(){
  frameRate(24);
 }
 
-
 void draw(){
   colorMode(RGB, 255);
   background(200);
@@ -50,5 +49,5 @@ void drawLine(int x, int y, float noiseVal){
   translate(x, y);
   rotate(noiseVal*radians(350));
   line(0,0, 20, 0);
-  popMatrix();
+  popMatrix2();
 }
